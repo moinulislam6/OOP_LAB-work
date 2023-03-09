@@ -16,10 +16,10 @@ public class Employee {
             System.out.println("\n");
         }
         public static void main(String[] args){
-            Address address1 = new Address("Gaffargoan","Mymensingh","Bangladesh");
-            Address address2 = new Address("Gopalpur","Tangail","Bangladesh");
-            Employee e1 = new Employee(5658,"Abdullah",address1);
-            Employee e2 = new Employee(5688,"Akash",address2);
+            Address address1 = new Address("Dhaka","Tangail","Bangladesh");
+            Address address2 = new Address("Tangail","Tangail","Bangladesh");
+            Employee e1 = new Employee(4652,"Moinul",address1);
+            Employee e2 = new Employee(6363,"Shafin",address2);
 
             e1.display();
             e2.display();
